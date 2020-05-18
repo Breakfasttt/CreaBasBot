@@ -1,0 +1,18 @@
+﻿La génération a démarré 30/01/2013 15:24:02.
+     1>Projet "D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\CreaBasBot\CreaBasBot.vcxproj" sur le nœud 2 (build cible(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale.  Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug_static\CreaBasBot.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\\bin\Debug_static\\..\..\CreaBasBot\include" /Zi /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_static\\" /Fd"Debug_static\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\\bin\Debug_static\CreaBasBot.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\\bin\Debug_static\\..\..\CreaBasBot\lib" "sfml-audio-s-d.lib" "sfml-graphics-s-d.lib" "sfml-main-d.lib" "sfml-network-s-d.lib" "sfml-system-s-d.lib" "sfml-window-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug_static\CreaBasBot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\bin\Debug_static\CreaBasBot.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\\bin\Debug_static\CreaBasBot.lib" /MACHINE:X86 Debug_static\DataCenter.obj
+         Debug_static\main.obj
+     1>DataCenter.obj : error LNK2019: symbole externe non résolu __imp___CrtDbgReportW référencé dans la fonction "public: char const & __thiscall std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> >::operator*(void)const " (??D?$_String_const_iterator@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEABDXZ)
+     1>D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\\bin\Debug_static\CreaBasBot.exe : fatal error LNK1120: 1 externes non résolus
+     1>Génération du projet "D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaBasBot\CreaBasBot\CreaBasBot.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.72

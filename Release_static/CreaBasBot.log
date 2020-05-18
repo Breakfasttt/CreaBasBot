@@ -1,0 +1,88 @@
+﻿La génération a démarré 13/03/2013 15:35:34.
+     1>Projet "C:\Users\ycolaisseau\Desktop\CreaBasBot\CreaBasBot\CreaBasBot.vcxproj" sur le nœud 2 (build cible(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale.  Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+     1>InitializeBuildStatus:
+         Création de "Release_static\CreaBasBot.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\\..\..\CreaBasBot\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_static\\" /Fd"Release_static\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AttaqueFsm.cpp BiblioDeck.cpp "BibliothèqueCartes.cpp" BouclierFSM.cpp Carte.cpp Combat.cpp Deck.cpp EditeurCarte.cpp EditeurDeck.cpp Game.cpp Joueur.cpp main.cpp Menu.cpp SoinFSM.cpp
+         AttaqueFsm.cpp
+         BiblioDeck.cpp
+     1>BiblioDeck.cpp(128): warning C4018: '<' : incompatibilité signed/unsigned
+         BibliothèqueCartes.cpp
+     1>BibliothèqueCartes.cpp(154): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(184): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(190): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(198): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(204): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(239): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(280): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(310): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(362): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(365): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(402): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(421): warning C4018: '<' : incompatibilité signed/unsigned
+     1>BibliothèqueCartes.cpp(445): warning C4018: '<' : incompatibilité signed/unsigned
+         BouclierFSM.cpp
+         Carte.cpp
+         Combat.cpp
+         Deck.cpp
+         EditeurCarte.cpp
+     1>EditeurCarte.cpp(380): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(390): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(400): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(464): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(467): warning C4018: '<' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(576): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(605): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(633): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(766): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(769): warning C4018: '<' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(793): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurCarte.cpp(796): warning C4018: '<' : incompatibilité signed/unsigned
+         EditeurDeck.cpp
+     1>EditeurDeck.cpp(138): warning C4018: '<' : incompatibilité signed/unsigned
+     1>EditeurDeck.cpp(232): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurDeck.cpp(255): warning C4018: '>' : incompatibilité signed/unsigned
+     1>EditeurDeck.cpp(258): warning C4018: '<' : incompatibilité signed/unsigned
+     1>EditeurDeck.cpp(409): warning C4018: '>' : incompatibilité signed/unsigned
+         Game.cpp
+         Joueur.cpp
+         main.cpp
+     1>main.cpp(15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+         Menu.cpp
+     1>Menu.cpp(172): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+         SoinFSM.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\CreaBasBot.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\\..\..\CreaBasBot\lib "sfml-audio-s.lib" "sfml-graphics-s.lib" "sfml-main.lib" "sfml-system-s.lib" "sfml-window-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release_static\CreaBasBot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ycolaisseau\Desktop\CreaBasBot\bin\Release_static\CreaBasBot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\CreaBasBot.lib" /MACHINE:X86 Release_static\AttaqueFsm.obj
+         Release_static\BiblioDeck.obj
+         "Release_static\BibliothèqueCartes.obj"
+         Release_static\BouclierFSM.obj
+         Release_static\Carte.obj
+         Release_static\Combat.obj
+         Release_static\DataCenter.obj
+         Release_static\Deck.obj
+         Release_static\EditeurCarte.obj
+         Release_static\EditeurDeck.obj
+         Release_static\EventManager.obj
+         Release_static\FSM.obj
+         Release_static\Game.obj
+         Release_static\Joueur.obj
+         Release_static\main.obj
+         Release_static\Menu.obj
+         Release_static\options.obj
+         Release_static\Robot.obj
+         Release_static\SoinFSM.obj
+     1>LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+         Génération de code en cours
+         Fin de la génération du code
+         CreaBasBot.vcxproj -> C:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\CreaBasBot.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ycolaisseau\Desktop\CreaBasBot\\bin\Release_static\CreaBasBot.exe;#1" /manifest Release_static\CreaBasBot.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release_static\CreaBasBot.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release_static\CreaBasBot.lastbuildstate".
+     1>Génération du projet "C:\Users\ycolaisseau\Desktop\CreaBasBot\CreaBasBot\CreaBasBot.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.77

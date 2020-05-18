@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\General">
+      <UniqueIdentifier>{8f6d5cf8-b728-4690-bbb5-44d1174bd1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Card">
+      <UniqueIdentifier>{695a58e5-a4c9-42b3-9464-7286b0716a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FSM">
+      <UniqueIdentifier>{9ae885fa-ef25-44b7-9a26-bcb48e056d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Player">
+      <UniqueIdentifier>{fcffb09f-fd0d-415d-8c36-3917b515080a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{833f4701-9a00-49e8-a7ae-f54b581c855c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Card">
+      <UniqueIdentifier>{cb9a1477-ea36-4f30-bb69-f86f44bf836d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FSM">
+      <UniqueIdentifier>{7ff72f19-4687-4d80-8f18-fa0191386bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{6c884913-d2fe-46d5-ad5a-a78dbf33abd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Player">
+      <UniqueIdentifier>{930f063d-9728-4a0e-bf22-28346a3a2f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\General">
+      <UniqueIdentifier>{daaf1096-1876-473a-bce6-aba2722816e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FSM_Script">
+      <UniqueIdentifier>{95710c61-25e2-43f9-bfd2-f85b82615ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FSMscript">
+      <UniqueIdentifier>{588c5d0e-11ff-47cc-98a1-027daba1c9c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataCenter.cpp">
+      <Filter>Fichiers sources\General</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Fichiers sources\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Carte.cpp">
+      <Filter>Fichiers sources\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="BibliothèqueCartes.cpp">
+      <Filter>Fichiers sources\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaqueFsm.cpp">
+      <Filter>Fichiers sources\FSMscript</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="EditeurCarte.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="BiblioDeck.cpp">
+      <Filter>Fichiers sources\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Fichiers sources\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="EditeurDeck.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Joueur.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SoinFSM.cpp">
+      <Filter>Fichiers sources\FSMscript</Filter>
+    </ClCompile>
+    <ClCompile Include="BouclierFSM.cpp">
+      <Filter>Fichiers sources\FSMscript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneralConfig.hpp">
+      <Filter>Fichiers d%27en-tête\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCenter.hpp">
+      <Filter>Fichiers d%27en-tête\General</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.hpp">
+      <Filter>Fichiers d%27en-tête\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Carte.hpp">
+      <Filter>Fichiers d%27en-tête\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="BibliothequeCartes.hpp">
+      <Filter>Fichiers d%27en-tête\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaqueFsm.hpp">
+      <Filter>Fichiers d%27en-tête\FSM_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptInclude.hpp">
+      <Filter>Fichiers d%27en-tête\FSM_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="EditeurCarte.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.hpp">
+      <Filter>Fichiers d%27en-tête\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="BiblioDeck.hpp">
+      <Filter>Fichiers d%27en-tête\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="EditeurDeck.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat.hpp">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Joueur.hpp">
+      <Filter>Fichiers d%27en-tête\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.hpp">
+      <Filter>Fichiers d%27en-tête\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SoinFSM.hpp">
+      <Filter>Fichiers d%27en-tête\FSM_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="BouclierFSM.hpp">
+      <Filter>Fichiers d%27en-tête\FSM_Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
